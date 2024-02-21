@@ -1,0 +1,23 @@
+.buttons {
+  width: 125px;
+  height: 50px;
+  border-radius: 9px;
+  border: 2px solid rgb(164, 8, 164);
+  background-color: aliceblue;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(164, 8, 164);
+  &:hover {
+    transition: all 0.7s ease;
+    background-color: rgb(164, 8, 164);
+    color: aliceblue;
+
+  }
+  &:active {
+    transition: all 0.1s ease;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+
+  }
+}
